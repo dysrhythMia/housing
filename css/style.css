@@ -34,6 +34,12 @@ h1{
 	background: #00816A;
 	display: inline-block;
 }
+@media only screen and (max-width: 600px) {
+	counter {
+		height:90;
+		width:200;
+	}
+}
 
 .smalltext{
 	padding-top: 5px;
