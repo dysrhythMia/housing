@@ -1,222 +1,188 @@
-	<!DOCTYPE html>
-	<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Apartment Hunting</title>
 
-	  <head>
+<!-- Bootstrap core CSS -->
+<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="css/shop-homepage.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
 
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="">
-		<meta name="author" content="">
+<body>
 
-		<title>Apartment Hunting</title>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container"> <a class="navbar-brand" href="#">2019-2020 Housing</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span> </a> </li>
+        <li class="nav-item"> <a class="nav-link" href="map.html">Map</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="spreadsheet.html">Spreadsheet</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#">Contact</a> </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-		<!-- Bootstrap core CSS -->
-		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<!-- Custom styles for this template -->
-		<link href="css/shop-homepage.css" rel="stylesheet">
-		<link href="css/style.css" rel="stylesheet">
+<!-- Page Content -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Housing Selection Time</h3>
+        </div>
+        <div class="panel-body"> Thursday, March 14, 2019 at 3:20 PM </div>
+      </div>
+      <h4> Vacancy Report UPDATED: 3/11/19 2:10PM</h4>
+      <br>
+      <h5> Two Double Bedroom Economy</h5>
+      <ul>
+        <a href="https://www.northeastern.edu/housing/residences/burstein-hall/">Burstein Hall</a> (6)
+      </ul>
+      <ul>
+        <a href="https://www.northeastern.edu/housing/residences/319-huntington-ave/">The Fairwoods/319 Huntington </a>(18)
+      </ul>
+      <h5>Two Double Bedroom Standard</h5>
+      <ul>
+        <a href="https://www.northeastern.edu/housing/residences/10-coventry/"> 10 Coventry St.</a> (2)
+      </ul>
+      <ul>
+        <a href="https://www.northeastern.edu/housing/residences/burstein-hall/">Burstein Hall</a> (6)
+      </ul>
+      <ul>
+        <a href="https://www.northeastern.edu/housing/residences/willis-hall/"> Willis Hall</a> (12)
+      </ul>
+      <h5> Selection Hierarchy: </h5>
+      <ol>
+        <a href="https://www.northeastern.edu/housing/residences/burstein-hall/">#1 Burstein Hall</a>
+      </ol>
+      <ol>
+        <a href="https://www.northeastern.edu/housing/residences/319-huntington-ave/"> #2 The Fairwoods/319 Huntington </a>
+      </ol>
+      <ul>
+        <a href="https://www.northeastern.edu/housing/residences/10-coventry/"> #3 10 Coventry St.</a>
+      </ul>
+      <ul>
+        <a href="https://www.northeastern.edu/housing/residences/burstein-hall/">#4 Burstein Hall</a>
+      </ul>
+      <ul>
+        <a href="https://www.northeastern.edu/housing/residences/willis-hall/">#5 Willis Hall</a>
+      </ul>
+    </div>
+    <!-- /.col-lg-3 -->
+    
+    <div class="col-lg-9">
+      <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active"> <img class="d-block img-fluid" src="img/bg-masthead.jpg" alt="First slide"> </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100"> <a href="https://www.northeastern.edu/housing/residences/106-st-stephen-street/"><img class="card-img-top" src="img/stStephen.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title"> <a href="https://www.northeastern.edu/housing/residences/10-coventry/">10 Coventry Street</a> </h4>
+              <h5>Standard</h5>
+              <p class="card-text">6-story apartment building located across the street from Columbus Avenue parking lot. Kitchen + Living Area</p>
+              <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Farthest from main campus."> Notes</button>
+            </div>
+            <div class="card-footer"> <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small> </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100"> <a href="https://www.northeastern.edu/housing/residences/burstein-hall/"><img class="card-img-top" src="img/bursteinHall.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title"> <a href="https://www.northeastern.edu/housing/residences/burstein-hall/">Burstein Hall</a> </h4>
+              <h5>Economy</h5>
+              <p class="card-text">4-story apartments across from the MFA. Proctored entryways, ResNet provided. Economy floorplan.</p>
+              <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Standard apartments don't have full kitchens."> Notes</button>
+            </div>
+            <div class="card-footer"> <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small> </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100"> <a href="https://www.northeastern.edu/housing/residences/rubenstein-hall/"><img class="card-img-top" src="img/rubensteinHall.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title"> <a href="https://www.northeastern.edu/housing/residences/willis-hall/">Willis Hall</a> </h4>
+              <h5>Standard</h5>
+              <p class="card-text">1 block west of Forsyth Street and close to the center of campus. Kitchen + Living Room| Fridge, Oven, Stove, Dishwasher, Garbage Disposal</p>
+              <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Lounge in lobby. Good location & reviews. Odd rooms have a/c year round."> Notes</button>
+            </div>
+            <div class="card-footer"> <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small> </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100"> <a href="https://www.northeastern.edu/housing/residences/leased-properties/"><img class="card-img-top" src="img/hemenwaySt.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title"> <a href="https://www.northeastern.edu/housing/residences/319-huntington-ave/">319/337/407 Huntington Ave</a> </h4>
+              <h5>Economy</h5>
+              <p class="card-text">4 or 5 story apartment building across from Krentzman Quadrangle, and Hastings. Proctor entryways, Resnet Available. Economy floorplan.</p>
+              <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Kitchenette. Good location."> Notes</button>
+            </div>
+            <div class="card-footer"> <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small> </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100"> <a href="https://www.northeastern.edu/housing/residences/leased-properties/"><img class="card-img-top" src="img/theFenway.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title"> <a href="https://www.northeastern.edu/housing/residences/leased-properties/">The Fenway</a> </h4>
+              <h5>Economy</h5>
+              <p class="card-text">Leased property, Economy floorplan. Lock and key entrance. Internet through landlord. </p>
+            </div>
+            <div class="card-footer"> <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small> </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100"> <a href="https://www.northeastern.edu/housing/residences/319-huntington-ave/"><img class="card-img-top" src="img/huntingtonAve.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title"> <a href="https://www.northeastern.edu/housing/residences/106-st-stephen-street/">106/110/116 St. Stephen Street</a> </h4>
+              <h5>Economy</h5>
+              <p class="card-text">4 story apartment building, with economy double bedrooms. Secured Husky Card entryway. Kitchen(ette), 2 bedrooms, 1 bathroom, ResNet provided.</p>
+            </div>
+            <div class="card-footer"> <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small> </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.row --> 
+      
+    </div>
+    <!-- /.col-lg-9 --> 
+    
+  </div>
+  <!-- /.row --> 
+  
+</div>
+<!-- /.container --> 
 
-	  </head>
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+  <div class="container">
+    <p class="m-0 text-center text-white">Copyright &copy; Mia Kotalik 2019</p>
+  </div>
+  <!-- /.container --> 
+</footer>
 
-	  <body>
-
-		<!-- Navigation -->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-		  <div class="container">
-			<a class="navbar-brand" href="#">2019-2020 Housing</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-			  <span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarResponsive">
-			  <ul class="navbar-nav ml-auto">
-				<li class="nav-item active">
-				  <a class="nav-link" href="index.html">Home
-					<span class="sr-only">(current)</span>
-				  </a>
-				</li>
-				<li class="nav-item">
-				  <a class="nav-link" href="map.html">Map</a>
-				</li>
-				<li class="nav-item">
-				  <a class="nav-link" href="spreadsheet.html">Spreadsheet</a>
-				</li>
-				<li class="nav-item">
-				  <a class="nav-link" href="#">Contact</a>
-				</li>
-			  </ul>
-			</div>
-		  </div>
-		</nav>
-
-		<!-- Page Content -->
-		<div class="container">
-
-		  <div class="row">
-
-			<div class="col-lg-3">
-
-			  <h3 class="my-4">Housing Selection: Thursday, March 14, 2019 at 3:20 PM</h3>
-				<h4> Vacancy Report UPDATED: 3/11/19 2:10PM</h4>
-				<br>
-				<h5> Two Double Bedroom Economy</h5>
-				<ul><a href="https://www.northeastern.edu/housing/residences/burstein-hall/">Burstein Hall</a> (6)</ul>
-				<ul><a href="https://www.northeastern.edu/housing/residences/319-huntington-ave/">The Fairwoods/319 Huntington </a>(18) </ul>
-				<h5>Two Double Bedroom Standard</h5>
-				<ul><a href="https://www.northeastern.edu/housing/residences/10-coventry/"> 10 Coventry St.</a> (2)</ul>
-				<ul><a href="https://www.northeastern.edu/housing/residences/burstein-hall/">Burstein Hall</a> (6)</ul>
-				<ul><a href="https://www.northeastern.edu/housing/residences/willis-hall/"> Willis Hall</a> (12)</ul>
-				<h5> Selection Hierarchy: </h5>
-				<ol><a href="https://www.northeastern.edu/housing/residences/burstein-hall/">#1 Burstein Hall</a></ol>
-				<ol><a href="https://www.northeastern.edu/housing/residences/319-huntington-ave/"> #2 The Fairwoods/319 Huntington </a></ol>
-				<ul><a href="https://www.northeastern.edu/housing/residences/10-coventry/"> #3 10 Coventry St.</a></ul>
-				<ul><a href="https://www.northeastern.edu/housing/residences/burstein-hall/">#4 Burstein Hall</a></ul>
-				<ul><a href="https://www.northeastern.edu/housing/residences/willis-hall/">#5 Willis Hall</a></ul>
-
-
-			</div>
-			<!-- /.col-lg-3 -->
-
-			<div class="col-lg-9">
-
-			  <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
-				<ol class="carousel-indicators">
-				  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-				  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-				  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-				</ol>
-				<div class="carousel-inner" role="listbox">
-				  <div class="carousel-item active">
-					<img class="d-block img-fluid" src="img/bg-masthead.jpg" alt="First slide">
-				  </div>
-			  </div>
-
-				</div>
-
-
-			  <div class="row">
-
-				<div class="col-lg-4 col-md-6 mb-4">
-				  <div class="card h-100">
-					<a href="https://www.northeastern.edu/housing/residences/106-st-stephen-street/"><img class="card-img-top" src="img/stStephen.jpg" alt=""></a>
-					<div class="card-body">
-					  <h4 class="card-title">
-						  <a href="https://www.northeastern.edu/housing/residences/10-coventry/">10 Coventry Street</a>
-					  </h4>
-					  <h5>Standard</h5>
-					  <p class="card-text">6-story apartment building located across the street from Columbus Avenue parking lot. Kitchen + Living Area</p>
-					</div>
-					<div class="card-footer">
-					  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-					</div>
-				  </div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 mb-4">
-				  <div class="card h-100">
-					<a href="https://www.northeastern.edu/housing/residences/burstein-hall/"><img class="card-img-top" src="img/bursteinHall.jpg" alt=""></a>
-					<div class="card-body">
-					  <h4 class="card-title">
-						<a href="https://www.northeastern.edu/housing/residences/burstein-hall/">Burstein Hall</a>
-					  </h4>
-					  <h5>Economy</h5>
-					  <p class="card-text">4-story apartments across from the MFA. Proctored entryways, ResNet provided. Economy floorplan.</p>
-					</div>
-					<div class="card-footer">
-					  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-					</div>
-				  </div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 mb-4">
-				  <div class="card h-100">
-					<a href="https://www.northeastern.edu/housing/residences/rubenstein-hall/"><img class="card-img-top" src="img/rubensteinHall.jpg" alt=""></a>
-					<div class="card-body">
-					  <h4 class="card-title">
-						<a href="https://www.northeastern.edu/housing/residences/willis-hall/">Willis</a>
-					  </h4>
-					  <h5>Standard</h5>
-					  <p class="card-text">1 block west of Forsyth Street and close to the center of campus. Kitchen + Living Room| Fridge, Oven, Stove, Dishwasher, Garbage Disposal</p>
-					</div>
-					<div class="card-footer">
-					  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-					</div>
-				  </div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 mb-4">
-				  <div class="card h-100">
-					<a href="https://www.northeastern.edu/housing/residences/leased-properties/"><img class="card-img-top" src="img/hemenwaySt.jpg" alt=""></a>
-					<div class="card-body">
-					  <h4 class="card-title">
-						
-						<a href="https://www.northeastern.edu/housing/residences/106-st-stephen-street/">106/110/116 St. Stephen Street</a>
-					  </h4>
-					  <h5>Economy</h5>
-					  <p class="card-text">4 story apartment building, with economy double bedrooms. Secured Husky Card entryway. Kitchen(ette), 2 bedrooms, 1 bathroom, ResNet provided.</p>
-					</div>
-					<div class="card-footer">
-					  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-					</div>
-				  </div>
-				</div>
-
-				<div class="col-lg-4 col-md-6 mb-4">
-				  <div class="card h-100">
-					<a href="https://www.northeastern.edu/housing/residences/leased-properties/"><img class="card-img-top" src="img/theFenway.jpg" alt=""></a>
-					<div class="card-body">
-					  <h4 class="card-title">
-						<a href="https://www.northeastern.edu/housing/residences/leased-properties/">The Fenway</a>
-					  </h4>
-					  <h5>Economy</h5>
-					  <p class="card-text">Leased property, Economy floorplan. Lock and key entrance. Internet through landlord. </p>
-					</div>
-					<div class="card-footer">
-					  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-					</div>
-				  </div>
-				</div>
-
-							  <div class="col-lg-4 col-md-6 mb-4">
-				  <div class="card h-100">
-					<a href="https://www.northeastern.edu/housing/residences/319-huntington-ave/"><img class="card-img-top" src="img/huntingtonAve.jpg" alt=""></a>
-					<div class="card-body">
-					  <h4 class="card-title">
-						<a href="https://www.northeastern.edu/housing/residences/319-huntington-ave/">319/337/407 Huntington Ave</a>
-					  </h4>
-					  <h5>Economy</h5>
-					  <p class="card-text">4 or 5 story apartment building across from Krentzman Quadrangle, and Hastings. Proctor entryways, Resnet Available. Economy floorplan.</p>
-					</div>
-					<div class="card-footer">
-					  <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-					</div>
-				  </div>
-				</div>
-
-			  </div>
-			  <!-- /.row -->
-
-			</div>
-			<!-- /.col-lg-9 -->
-
-		  </div>
-		  <!-- /.row -->
-
-		</div>
-		<!-- /.container -->
-
-		<!-- Footer -->
-		<footer class="py-5 bg-dark">
-		  <div class="container">
-			<p class="m-0 text-center text-white">Copyright &copy; Mia Kotalik 2019</p>
-		  </div>
-		  <!-- /.container -->
-		</footer>
-
-		<!-- Bootstrap core JavaScript -->
-		<script src="myjavascript.js"></script>
-		<script src="vendor/jquery/jquery.min.js"></script>
-		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-	  </body>
-
-	</html>
+<!-- Bootstrap core JavaScript --> 
+<script src="myjavascript.js"></script> 
+<script src="vendor/jquery/jquery.min.js"></script> 
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
+</script>
+</body>
+</html>
